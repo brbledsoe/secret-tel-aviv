@@ -1,8 +1,52 @@
-p {
-
-	color: red;
+body{
+	margin: 0;
+	background-color: #ddd;
 }
 
-.special{
-	color: blue;
+nav li {
+	display: inline-block;
 }
+
+nav {
+	background-color: #333333;
+	position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.hero-image {
+	width: 100%;
+	max-width: 500px;
+	display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.hero {
+  background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg)no-repeat center fixed;
+  background-size: cover;
+  height: 700px;
+  padding-top:50px;
+  
+}
+
